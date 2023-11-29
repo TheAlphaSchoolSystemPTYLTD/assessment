@@ -44,13 +44,14 @@
             "obj_desc": "Problem Solving",
             "active_flg": "Y",
             "obj_code": "PS1"
-		  },
+	  },
         ],
         "__tassversion": "01.000.043.0",
-        "token": {
-			"res_year": 2023,
-			"res_period": 1,
-			"timestamp": "{ts '2023-11-29 13:44:01'}"
+        "token":
+    	{
+	  "res_year": 2023,
+	  "res_period": 1,
+	  "timestamp": "{ts '2023-11-29 13:44:01'}"
         }
       }
     ```
