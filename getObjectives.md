@@ -2,7 +2,7 @@
 ----
 	Returns an array of structured academic reporting objectives in JSON format.
 
-* **Version HIstory:**
+* **Version History:**
 
   TASS v59.01 - New API endpoint.
 
