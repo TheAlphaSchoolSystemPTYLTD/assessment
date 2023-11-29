@@ -1,4 +1,4 @@
-**getObjectives**
+**getResultYearsAndPeriods**
 ----
 	Returns an array of structured result years and periods in JSON format.
 
