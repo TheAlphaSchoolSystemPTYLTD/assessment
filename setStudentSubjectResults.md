@@ -62,6 +62,7 @@
     ```
 
 * **Error Response:**
+The <i>line_number</i> property in the return error details relates to the index position of the record in error that was in the provided student_results array.
 
     ```json
     {
