@@ -45,6 +45,8 @@
         {
           "res_year": 2023,
           "res_period": 1,
+          "obj_code": "PS1",
+          "include_inactive": true,
           "timestamp": "{ts '2023-11-29 13:44:01'}"
         }
       }
