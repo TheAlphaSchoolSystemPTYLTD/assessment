@@ -97,49 +97,42 @@
  
 * **Error Response:**
 
-    `res_year` was not provided
     ```javascript
     __invalid: {
       "res_year": "Value must be provided."
     }
     ```
 
-    `res_year` is not numeric
     ```javascript
     __invalid: {
       "res_year": "Value must be numeric."
     }
     ```
 
-    `res_year` must be 4 digits in size
     ```javascript
     __invalid: {
       "res_year": "Value must be 4 digits."
     }
     ```
 
-    `res_period` was not provided
     ```javascript
     __invalid: {
       "res_period": "Value must be provided."
     }
     ```
 
-    `res_period` is not numeric
     ```javascript
     __invalid: {
       "res_period": "Value must be numeric."
     }
     ```
 
-    `res_period` must be 2 digits or less in size
     ```javascript
     __invalid: {
       "res_period": "Value must be 2 digits or less."
     }
     ```
 	
-    `assess_code` must be 2 characters or less in size
     ```javascript
     __invalid: {
       "assess_code": "Value must be 2 characters or less."
