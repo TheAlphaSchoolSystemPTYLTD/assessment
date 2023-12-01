@@ -26,7 +26,7 @@
     --- | :---: | :---: | --- | --- |
     res_year | integer | Yes | Must be provided.<br>Must be numeric.<br>Must be exactly 4 digits in size. | Year to get assessment methods for.
     res_period | integer | Yes | Must be provided.<br>Must be numeric.<br>Must not be greater than 2 digits in size. | Period to get assessment methods for.
-    assess_code | string | No | Must not be greater than 2 characters in length. | Specific assessment code to retrieve.
+    assess_code | string | No | If provided, must not be greater than 2 characters in length. | If provided, returns just the one specific matching assessment code.
 
 * **Success Response:**
 
