@@ -152,8 +152,8 @@
 
   ```javascript
   {
-	  "res_year": 2023,
-	  "res_period": 1,
+    "res_year": 2023,
+    "res_period": 1,
     "overwrite_existing_data": false,
     "student_results":
     [
