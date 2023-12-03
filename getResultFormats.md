@@ -39,7 +39,7 @@
             "yr_level_desc": "DD",
             "yr_level": -5,
             "sub_desc": "Work Skills",
-            "rpt_type": "A"
+            "rpt_type": "A",
             "objectives":
             [
               {
