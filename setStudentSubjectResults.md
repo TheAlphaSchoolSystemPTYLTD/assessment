@@ -90,7 +90,7 @@
         "res_period": 1,
         "timestamp": "{ts '2023-11-30 11:54:55'}",
         "res_year": 2023,
-        "overwrite_existing_data": true
+        "overwrite_existing_data": false,
         "student_results":
         [
           {
