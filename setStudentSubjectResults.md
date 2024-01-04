@@ -24,14 +24,14 @@
 
     Parameter Name | Type | Mandatory | Validations | Notes
     --- | :---: | :---: | --- | --- |
-    res_year | integer | Yes | Must be provided.<br>Must be numeric.<br>Must be exactly 4 digits in size. | Year to apply subject assessment results for.
-    res_period | integer | Yes | Must be provided.<br>Must be numeric.<br>Must not be greater than 2 digits in size. | Period to apply subject assessment results for.
+    res_year | integer | Yes | Must be numeric.<br>Must be exactly 4 digits in size. | Year to apply subject assessment results for.
+    res_period | integer | Yes | Must be numeric.<br>Must not be greater than 2 digits in size. | Period to apply subject assessment results for.
     overwrite_existing_data | bool | No | If provided, must be either true or false. | Default is false.<br>If set to true then existing student results will be replaced.
-    student_results | array | Yes | Must be provided. | List of student results to update.
-    [student_results].stud_code | string | Yes | Must be provided.<br>Must not be greater than 8 characters in length. | Student code.
-    [student_results].sub_code | string | Yes | Must be provided.<br>Must not be greater than 15 characters in length. | Subject code.
-    [student_results].obj_code | string | Yes | Must be provided.<br>Must not be greater than 4 characters in length. | Objective code.
-    [student_results].stud_result | string | Yes | Must be provided.<br>Must not be greater than 7 characters in length. | Assessment result.
+    student_results | array | Yes | | List of student results to update.
+    [student_results].stud_code | string | Yes | Must not be greater than 8 characters in length. | Student code.
+    [student_results].sub_code | string | Yes | Must not be greater than 15 characters in length. | Subject code.
+    [student_results].obj_code | string | Yes | Must not be greater than 4 characters in length. | Objective code.
+    [student_results].stud_result | string | Yes | Must not be greater than 7 characters in length. | Assessment result.
 
 * **Success Response:**
 
