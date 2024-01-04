@@ -1,6 +1,6 @@
 **getResultFormats**
 ----
-    Returns an array of structured academic reporting objectives in JSON format.
+    Returns an array of structured academic result formats in JSON format.
 
 * **Version History:**
 
