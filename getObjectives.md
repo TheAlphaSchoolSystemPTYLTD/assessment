@@ -24,8 +24,8 @@
 
     Parameter Name | Type | Mandatory | Validations | Notes
     --- | :---: | :---: | --- | --- |
-    res_year | integer | Yes | Must be provided.<br>Must be numeric.<br>Must be exactly 4 digits in size. | Year to get objectives for.
-    res_period | integer | Yes | Must be provided.<br>Must be numeric.<br>Must not be greater than 2 digits in size. | Period to get objectives for.
+    res_year | integer | Yes | Must be numeric.<br>Must be exactly 4 digits in size. | Year to get objectives for.
+    res_period | integer | Yes | Must be numeric.<br>Must not be greater than 2 digits in size. | Period to get objectives for.
     obj_code | string | No | If provided, must not be greater than 4 characters in length. | Specific objective code to retrieve.
     include_inactive | boolean | No | If provided, must be either <i>true</i> or <i>false</i>. | Default is <i>false</i>.<br>If set to <i>true</i> then inactive objectives will be included in the return results.
 
